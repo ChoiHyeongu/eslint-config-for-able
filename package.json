@@ -1,6 +1,6 @@
 {
   "name": "@ablech/eslint-config-for-able",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "ESLint config for able",
   "main": "index.js",
   "repository": "https://github.com/ChoiHyeongu/eslint-config-for-able.git",
