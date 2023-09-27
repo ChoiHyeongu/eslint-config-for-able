@@ -1,6 +1,6 @@
 {
   "name": "@ablech/eslint-config-for-able",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "ESLint config for able",
   "main": "index.js",
   "repository": "https://github.com/ChoiHyeongu/eslint-config-for-able.git",
@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
+    "@babel/core": "^7.23.0",
     "@babel/eslint-parser": "^7.22.15",
     "@babel/parser": "^7.23.0",
     "@babel/preset-env": "^7.22.20",
