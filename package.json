@@ -1,6 +1,6 @@
 {
   "name": "@ablech/eslint-config-for-able",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ESLint config for able",
   "main": "index.js",
   "repository": "https://github.com/ChoiHyeongu/eslint-config-for-able.git",
@@ -8,6 +8,8 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
+    "@babel/parser": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
     "@react-native-community/eslint-config": "^3.2.0",
     "@typescript-eslint/eslint-plugin": "^6.7.3",
     "@typescript-eslint/parser": "^6.7.3",
