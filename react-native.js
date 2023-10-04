@@ -8,7 +8,7 @@ module.exports = {
     },
     ecmaVersion: 11,
   },
-  plugins: ['react', '@react-native-community'],
+  plugins: ['react', '@react-native-community', 'import'],
   rules: {
     'react/react-in-jsx-scope': 'off',
     'import/order': [
