@@ -14,7 +14,7 @@ module.exports = {
     'import/order': [
       'error',
       {
-        groups: ['builtin', 'external', 'internal', 'index'],
+        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'unknown', 'type'],
         pathGroups: [
           {
             pattern: 'react',
@@ -28,6 +28,11 @@ module.exports = {
           },
           {
             pattern: '@/**',
+            group: 'internal',
+            position: 'before',
+          },
+          {
+            pattern: './src/**',
             group: 'internal',
             position: 'before',
           },
