@@ -18,7 +18,7 @@ module.exports = {
     ecmaVersion: 11,
   },
 
-  plugins: ['react', '@react-native-community', 'import'],
+  plugins: ['react', 'react-hooks', '@react-native-community', 'import'],
 
   rules: {
     // React 17부터는 JSX에서 React를 자동으로 가져오므로, React를 스코프에 포함하지 않아도 됩니다.
